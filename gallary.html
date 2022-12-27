@@ -1,0 +1,150 @@
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+    .header .logo {
+      font-size: 25px;
+      font-family: 'georgia' ;
+      font-weight: bold;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    } 
+    .nav-items {
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 10px;
+    }
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+      font: size 35px;
+      font-weight: bold;
+      text-decoration:underline;
+    }
+    .nav-items :hover {
+       color:steelblue;
+    }
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+    /* .dropbtn {
+    background-color: #04AA6D;
+    color: #000;
+    padding: 15px;
+    font-size: 20%;
+    font-size:larger;
+    font-weight: bold;
+    border: none;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 10px 1px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropbtn {background-color: rgb(12, 230, 121);} */
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+</style>
+</head>
+<body>
+  <header class="header">
+    <a href="/index.html" class="logo">G.P. Bhagalpur</a>
+
+    <nav class="nav-items">
+     <a href="/index.html">Home</a>
+      <a href="/gallary.html">Gallary</a>
+      <a href="/ebook.html">E-Books</a>
+    </nav>
+    <!-- <div class="dropdown">
+        <button class="dropbtn">Library</button>
+        <div class="dropdown-content">
+          <a href="/p.html">Administrator</a>
+        <a href="/student  login.html">Student</a>
+        </div>
+      </div> -->
+
+  </header>
+
+<div class="gallery">
+  <a target="_blank" href="/right college.jpg">
+    <img src="/right college.jpg">
+  </a>
+  <div class="desc">Right view</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="/left college.jpg">
+    <img src="/left college.jpg">
+  </a>
+  <div class="desc">Left view</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="/full college.jpg">
+    <img src="/full college.jpg">
+  </a>
+  <div class="desc">Back View</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="/bottom.jpg">
+    <img src="/bottom.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  
+  <div class="desc">Front View</div><br>
+</div><br>
+  
+<video src="VID-20211028.mp4" alt="" width="20% 30%" autoplay poster="/gp.jpg" controls loop>Intro</video>
+<!-- <a href="/VID-20211028.mp4">College Intro</a> -->
+</body>
+</html>
